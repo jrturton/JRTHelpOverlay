@@ -9,6 +9,10 @@ Help overlay for iPad (depends on UIPopoverController, so not available for iPho
 - Make your view controllers conform to the protocol and return an array of help objects for any views of interest
 - Call `+ (void)presentFromViewController:(UIViewController *)viewController;` on JRTHelpOverlay to present the help view. Typically `viewController` will be the root view controller of the window. 
 
+##Screenshot
+
+![Screenshot of help overlay](https://raw.github.com/jrturton/jrthelpoverlay/master/helpoverlayscreenshot.png)
+
 ##Known issues:
 
 - Can get messy if your highlighted help objects are close together and the popover obscures the objects underneath.
